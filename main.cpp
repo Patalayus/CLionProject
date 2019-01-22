@@ -21,5 +21,19 @@ int main() {
         cin >> num2;
         total = num1 - num2;
         cout << "Your total is " << total << endl;
+    }else if(choice == 3){
+        cout << "Enter your first number\n";
+        cin >> num1;
+        cout << "Enter your second number\n";
+        cin >> num2;
+        total = num1 * num2;
+        cout << "Your total is " << total << endl;
+    }else if(choice == 4){
+        cout << "Enter your first number\n";
+        cin >> num1;
+        cout << "Enter your second number\n";
+        cin >> num2;
+        total = num1 / num2;
+        cout << "Your total is " << total << endl;
     }
 }
